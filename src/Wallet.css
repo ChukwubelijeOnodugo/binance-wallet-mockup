@@ -1,0 +1,357 @@
+main {
+    background-color: rgb(30,32,38);
+    display: flex;
+    font-size: 0.875em;
+}
+
+.page-content {
+    min-height: 100vh;
+    margin: auto;
+}
+
+.world-map {
+    width: 100%;
+    margin: auto;
+}
+
+.icon {
+    margin-top: 20px;
+    height: 4em;
+}
+
+.welcome-message {
+    font-size: 1em;
+    color: white;
+    font-weight: 600;
+}
+
+.subheading-message {
+    color: rgb(118, 128, 143);
+    margin-bottom: 80px;
+}
+
+.button {
+    height: 2.85714em;
+    width: 100%;
+    border-radius: 0.571429em;
+    cursor: pointer;
+}
+
+.existing-wallet {
+    background-color: rgb(240,185,11);
+    margin-bottom: 16px;
+    font-weight: 600;
+}
+
+.existing-wallet:hover,
+.create-wallet:hover {
+    background-color: rgb(248, 209, 47);
+}
+
+.create-wallet:hover {
+    color: black;
+}
+
+.existing-wallet:active,
+.create-wallet:active {
+    box-shadow: 0px 0px 2px 2px rgb(152, 121, 22);
+}
+
+.create-wallet {
+    background-color: rgb(43,47,54);
+    font-weight: 600;
+    color: white;
+}
+
+.back-button {
+    display: flex;
+    margin-top: 20px;
+    font-size: 0.75em;
+    height: 2em;
+    border-radius: 0.333333em;
+    width: 2em;
+    font-weight: 600;
+    color: rgb(230, 232, 234);
+    background: rgb(43, 47, 54);
+}
+
+.heading {
+    margin-top: 30px;
+    font-size: 1.5em;
+    font-weight: 600;
+    width: 100%;
+    color: rgb(230, 232, 234);
+    margin-bottom: 15px;
+}
+
+.select-preferred {
+    font-size: 1em;
+    color: rgb(230, 232, 234);
+}
+
+button:disabled,
+button:disabled:hover,
+button:disabled:active {
+    color: rgb(230, 232, 234);
+    box-shadow: none;
+    background: rgb(43, 47, 54);
+    opacity: 0.3;
+}
+
+.import-seed-button,
+.safulet-button,
+.connect-hardware-button {
+    text-align: left;
+    padding: 0px 1.71429em;
+}
+
+.vkey-button {
+    margin-top: 4px;
+}
+
+.vkey-button:hover {
+    background-color: rgb(248, 209, 47);
+}
+
+.import-seed-button:hover,
+.safulet-button:hover,
+.connect-hardware-button:hover,
+.back-button:hover {
+    background-color: rgb(248, 209, 47);
+    color: black;
+}
+
+.import-seed-button:active,
+.safulet-button:active,
+.connect-hardware-button:active,
+.vkey-button:active,
+.back-button:active {
+    box-shadow: 0px 0px 2px 2px rgb(152, 121, 22);
+}
+
+
+.button-icon {
+    margin-right: 0.571429em;
+    width: auto;
+    height: 1em;
+    cursor: pointer;
+    font-size: 0.875em;
+    font-weight: 600;
+    color: rgb(230, 232, 234);
+}
+
+.beta-tag {
+    font-size: 0.857143em;
+    margin-left: 0.666667em;
+    border-radius: 1em;
+    padding: 0.333333em 0.666667em;
+    background: rgba(240, 185, 11, 0.1);
+    color: rgb(208, 152, 11);
+}
+
+.import-seed-button,
+.safulet-button,
+.connect-hardware-button,
+.vkey-button {
+    font-weight: 600;
+    color: rgb(230, 232, 234);
+    background: rgb(43, 47, 54);
+}
+
+.import-seed-button,
+.safulet-button {
+    margin-bottom: 10px;
+}
+
+.connect-hardware-button {
+    margin-bottom: 20px;
+}
+
+.small-text {
+    margin-top: 20px;
+    color: rgb(230, 232, 234);
+    font-weight: 400;
+    align-self: start;
+    font-size: 0.75em;
+}
+
+.invalid-input-icon {
+    font-size: 0.833333em;
+    margin-right: 0.4em;
+    width: auto;
+    height: 1em;
+    color: rgb(118, 128, 143);
+}
+
+.input-box {
+    display: flex;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    background: rgb(43, 47, 54);
+    border: 1px solid transparent;
+    color: rgb(230, 232, 234);
+    font-size: 0.875em;
+    height: 2.85714em;
+    border-radius: 0.571429em;
+    padding-left: 0.857143em;
+    padding-right: 0.857143em;
+    /* opacity: 0.3; */
+}
+
+.clear-input {
+    flex: 1 1 0%;
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    background: transparent;
+    color: inherit;
+    font-size: 1em;
+    height: 2.71429em;
+    line-height: 2.71429em;
+    
+}
+
+.eye-icon {
+    width: auto;
+    height: 1em;
+    color: rgb(230, 232, 234);
+}
+
+.textbox-label {
+    font-size: 0.75em;
+    padding-bottom: 0.333333em;
+    color: rgb(230, 232, 234);
+    padding-top: 30px;
+}
+
+.textbox-enclosure {
+    display: flex;
+    flex-direction: row;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    background: rgb(43, 47, 54);
+    border: 1px solid transparent;
+    color: rgb(230, 232, 234);
+    overflow: hidden;
+    min-height: 8.57142em;
+    border-radius: 0.571429em;
+    padding-left: 0.857143em;
+    padding-right: 0.857143em;
+}
+
+.seed-phrase-textbox {
+    flex: 1 1 0%;
+    display: flex;
+    min-height: 8.57142em;
+    text-indent: 0px;
+    padding: 0.857143em 1.71429em;
+    margin-left: -0.857143em;
+    margin-right: -0.857143em;
+    border: none;
+    text-decoration: none;
+    background: transparent;
+    color: inherit;
+    font-size: 1em;
+}
+
+textarea.seed-phrase-textbox:focus {
+    outline: none;
+    border: 1px solid rgb(240, 185, 11);
+}
+
+textarea.seed-phrase-textbox.written {
+    border: 1px solid rgb(217, 48, 78);
+}
+
+
+.textbox-error {
+    font-weight: 400;
+    font-size: 0.75em;
+    color: rgb(217, 48, 78);
+}
+
+.copy {
+    color:rgb(118, 128, 143);
+    font-weight: 400;
+    align-self: start;
+    font-size: 0.75em;
+}
+
+.copy.word-limit {
+    margin-top: 6px;
+}
+
+.agree-terms {
+    display: flex;
+    gap: 8px;
+    font-size: 0.875em;
+    color: rgb(230, 232, 234);
+    margin-top: 30px;
+    margin-bottom: 1.5em;
+}
+
+input[type="checkbox"] {
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+input[type="checkbox"] {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    border-radius: 0.25em;
+    width: 1em;
+    height: 1em;
+    background: rgb(43, 47, 54);
+    border: 1px solid rgb(46, 50, 58);
+}
+
+input[type="checkbox"]::before {
+    content: "";
+    align-self: center;
+    color: rgb(30, 32, 38);
+    border-color: transparent;
+    background: url(data:image/svg+xml,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%20-1.5%2016%2016%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M16%201.9797L5.86057%2012.2225L4.57143%2010.9191L0%206.29686L1.28914%204.98415L5.86057%209.60637L14.7017%200.666992L16%201.9797Z%22%2F%3E%3C%2Fsvg%3E) center center / 0.5em no-repeat rgb(240, 185, 11);
+    visibility: hidden;
+}   
+
+input[type="checckbox"]:checked::before {
+    visibility: visible;
+}
+
+.terms-of-use-link {
+    color: rgb(208, 152, 11);
+    text-decoration: none;
+}
+
+.terms-of-use-link:visited {
+    text-decoration: none;
+}
+
+.import-button:disabled,
+.import-button:disabled:hover,
+.import-button:disabled:active {
+    margin: 0 0 1.5em;
+    padding: 0px 0.857143em;
+    border: none;
+    outline: none;
+    text-decoration: none;
+    font-weight: 600;
+    opacity: 0.3;
+    background: rgb(240, 185, 11);
+    color: rgb(30, 32, 38);
+    font-size: 0.875em;
+}
+
+
+
