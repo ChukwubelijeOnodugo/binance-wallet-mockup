@@ -1,3 +1,40 @@
+## Table of contents
+
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshot](#screenshot)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+- [Author](#author)
+
+## Overview
+
+### The challenge
+
+Wanted to recreate the look and feel of the binance wallet browser extension
+
+### Screenshot
+
+![](./binance.png)
+
+### Links
+
+- Solution URL: [GitHub](https://github.com/ThatGuyChike/binance-wallet-mockup)
+- Live Site URL: [Vercel](https://age-calculator-theta-orpin.vercel.app)
+
+## My Process
+
+### Built with
+
+- Semantic HTML5 markup
+- Flexbox
+- [React](https://reactjs.org/) - JS library
+
+## Author
+
+- Twitter - [@ThatGuyChike](https://www.twitter.com/ThatGuyChike)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
