@@ -20,7 +20,7 @@ Wanted to recreate the look and feel of the binance wallet browser extension
 
 ### Links
 
-- Solution URL: [GitHub](https://github.com/ThatGuyChike/binance-wallet-mockup)
+- Solution URL: [GitHub](https://github.com/ChukwubelijeOnodugo/binance-wallet-mockup)
 - Live Site URL: [Vercel](https://age-calculator-theta-orpin.vercel.app)
 
 ## My Process
